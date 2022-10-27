@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_test",
+  "name": "obj_wall",
   "spriteId": {
-    "name": "spr_test",
-    "path": "sprites/spr_test/spr_test.yy",
+    "name": "spr_collider",
+    "path": "sprites/spr_collider/spr_collider.yy",
   },
   "solid": false,
   "visible": true,
