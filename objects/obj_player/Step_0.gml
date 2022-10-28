@@ -1,10 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x_speed = (keyboard_check(vk_right) - keyboard_check(vk_left)) * walk_speed;
+key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
+key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
+key_jump = keyboard_check(vk_up) or keyboard_check(ord("W")) or keyboard_check(vk_space);
+
+
+
+x_speed = (key_right - key_left) * walk_speed;
 y_speed = y_speed + grav;
 
-if (place_meeting(x, y + 1, obj_wall)) and (keyboard_check(vk_space)) {
+if (place_meeting(x, y + 1, obj_wall)) and (key_jump) {
 	y_speed = jump_speed;
 }
 
