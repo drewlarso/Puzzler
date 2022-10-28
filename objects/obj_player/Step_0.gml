@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Movement
 
 key_left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) or keyboard_check(ord("D"));
