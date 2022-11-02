@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_wall",
+  "name": "obj_wallgreen",
   "spriteId": {
-    "name": "spr_collider",
-    "path": "sprites/spr_collider/spr_collider.yy",
+    "name": "spr_wallgreen",
+    "path": "sprites/spr_wallgreen/spr_wallgreen.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,9 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [],
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"enabled","varType":3,"value":"True","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",

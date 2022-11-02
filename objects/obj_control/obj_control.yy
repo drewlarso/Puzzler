@@ -1,11 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_wall",
-  "spriteId": {
-    "name": "spr_collider",
-    "path": "sprites/spr_collider/spr_collider.yy",
-  },
+  "name": "obj_control",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
@@ -24,10 +21,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"enabled","varType":3,"value":"True","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":69,"eventType":9,"collisionObjectId":null,},
   ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Objects",

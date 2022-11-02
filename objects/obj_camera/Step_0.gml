@@ -10,3 +10,4 @@ if (distance > 22) {
 	camera_set_view_target(view_camera[0], obj_player);
 	//x = lerp(x, obj_player.x, .2);
 }
+show_debug_message(distance)

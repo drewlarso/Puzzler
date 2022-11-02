@@ -1,0 +1,1 @@
+global.enabled = !global.enabled;
