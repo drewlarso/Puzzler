@@ -11,6 +11,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"spr_wallgreen","path":"sprites/spr_wallgreen/spr_wallgreen.yy",},"order":2,},
     {"id":{"name":"obj_wallblue","path":"objects/obj_wallblue/obj_wallblue.yy",},"order":5,},
+    {"id":{"name":"spr_bricks","path":"sprites/spr_bricks/spr_bricks.yy",},"order":4,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_collider","path":"sprites/spr_collider/spr_collider.yy",},"order":0,},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
