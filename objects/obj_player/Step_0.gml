@@ -9,22 +9,26 @@ x_speed = (key_right - key_left) * walk_speed;
 y_speed = y_speed + grav;
 
 if (global.enabled) {
-	enabled_collider = obj_wallgreen;
+	global.enabled_collider = obj_wallgreen;
 } else {
-	enabled_collider = obj_wallblue;
+	global.enabled_collider = obj_wallblue;
+}
+
+if instance_place(x,y,global.enabled_collider) {
+	room_restart()
 }
 
 function check_collisions(xpos, ypos, fobj, sobj) {
 	return place_meeting(xpos, ypos, fobj) or place_meeting(xpos, ypos, sobj);
 }
 
-if (check_collisions(x, y + 1, obj_wall, enabled_collider)) and (key_jump) {
+if (check_collisions(x, y + 1, obj_wall, global.enabled_collider)) and (key_jump) {
 	y_speed = jump_speed;
 }
 
 var x_dir = sign(x_speed);
-if (check_collisions(x + x_speed, y, obj_wall, enabled_collider)) {
-	while (!check_collisions(x + x_dir, y, obj_wall, enabled_collider)) {
+if (check_collisions(x + x_speed, y, obj_wall, global.enabled_collider)) {
+	while (!check_collisions(x + x_dir, y, obj_wall, global.enabled_collider)) {
 		x += x_dir;
 	}
 	x_speed = 0;
@@ -32,8 +36,8 @@ if (check_collisions(x + x_speed, y, obj_wall, enabled_collider)) {
 x += x_speed;
 
 var y_dir = sign(y_speed);
-if (check_collisions(x, y + y_speed, obj_wall, enabled_collider)) {
-	while (!check_collisions(x, y + y_dir, obj_wall, enabled_collider)) {
+if (check_collisions(x, y + y_speed, obj_wall, global.enabled_collider)) {
+	while (!check_collisions(x, y + y_dir, obj_wall, global.enabled_collider)) {
 		y += y_dir;
 	}
 	y_speed = 0;
