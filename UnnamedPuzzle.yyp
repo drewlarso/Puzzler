@@ -6,6 +6,7 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":1,},
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},"order":4,},
     {"id":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},"order":2,},
+    {"id":{"name":"obj_button","path":"objects/obj_button/obj_button.yy",},"order":8,},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"order":2,},
     {"id":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},"order":1,},
     {"id":{"name":"obj_wallgreen","path":"objects/obj_wallgreen/obj_wallgreen.yy",},"order":3,},
@@ -13,6 +14,7 @@
     {"id":{"name":"ts_main","path":"tilesets/ts_main/ts_main.yy",},"order":0,},
     {"id":{"name":"spr_wallblue","path":"sprites/spr_wallblue/spr_wallblue.yy",},"order":3,},
     {"id":{"name":"obj_testroom","path":"objects/obj_testroom/obj_testroom.yy",},"order":0,},
+    {"id":{"name":"spr_button","path":"sprites/spr_button/spr_button.yy",},"order":8,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"fnt_main","path":"fonts/fnt_main/fnt_main.yy",},"order":0,},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"order":6,},
@@ -22,7 +24,9 @@
     {"id":{"name":"spr_lightbricks","path":"sprites/spr_lightbricks/spr_lightbricks.yy",},"order":5,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"order":7,},
+    {"id":{"name":"obj_level1","path":"objects/obj_level1/obj_level1.yy",},"order":1,},
     {"id":{"name":"spr_collider","path":"sprites/spr_collider/spr_collider.yy",},"order":0,},
+    {"id":{"name":"obj_level2","path":"objects/obj_level2/obj_level2.yy",},"order":2,},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},"order":0,},
   ],
   "Options": [
@@ -38,9 +42,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"roomId":{"name":"rm_level1","path":"rooms/rm_level1/rm_level1.yy",},},
     {"roomId":{"name":"rm_level2","path":"rooms/rm_level2/rm_level2.yy",},},
+    {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
@@ -48,6 +52,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy","order":13,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy","order":9,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Objects/Rooms.yy","order":7,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy","order":4,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy","order":10,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy","order":5,},
@@ -57,7 +62,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Objects/Rooms.yy","order":7,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
